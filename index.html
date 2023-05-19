@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>synth</title>
+        <style>
+canvas {
+    width: 100%;
+    position: fixed;
+}
+        body {
+            margin: 0;
+        }
+        #options {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            background-color: grey;
+            margin: 5px;
+            width: 10%;
+            opacity: 0.8;
+            padding: 0px 12px 12px 12px;
+            border-radius: 10 10;
+            align-text: left;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="options">
+            <p> foo </p>
+            <label for="speed">speed</label>
+            <input type="range" min="0" max="1000" value="900" class="slider" id="speed">
+        </div>
+        <canvas id="main">
+            canvas?
+        </canvas>
+    <script src="index.js"></script>
+    </body>
+</html>
